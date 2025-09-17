@@ -18,7 +18,7 @@ local checkpoints = {
     Vector3.new(96, -34, -1228),  -- CP9
     Vector3.new(104, 114, -828)  -- CP10 Summit
 }
-local delayPerCP = 2 -- detik antar teleport
+local delayPerCP = 1 -- detik antar teleport
 local autoLoop = false
 local currentCP = 0 -- indikator CP aktif
 
