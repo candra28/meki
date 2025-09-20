@@ -9,9 +9,9 @@ local UserInputService = game:GetService("UserInputService")
 local checkpoints = {
     Vector3.new(312, 205, -76) -- CP1
 }
-local delayPerCP = 5 -- detik antar teleport
+local delayPerCP = 10 -- detik antar teleport
 local autoLoop = false
-local currentCP = 0 -- indikator CP aktif
+local currentCP = 10 -- indikator CP aktif
 
 -- === CORE ===
 local function getHRP()
