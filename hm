@@ -7,18 +7,9 @@ local UserInputService = game:GetService("UserInputService")
 
 -- === SETTINGS ===
 local checkpoints = {
-    Vector3.new(-923, -157, -794), -- CP1
-    Vector3.new(-382, -177, -824),  -- CP2
-    Vector3.new(-762, -37, -804),  -- CP3
-    Vector3.new(-1133, -89, -1164),  -- CP4
-    Vector3.new(-648, -21, -1262), -- CP5
-    Vector3.new(-1140, 22, -1435),-- CP6
-    Vector3.new(-936, -97, -1511), -- CP7
-    Vector3.new(-457, -42, -1607),  -- CP8
-    Vector3.new(96, -34, -1228),  -- CP9
-    Vector3.new(104, 114, -828)  -- CP10 Summit
+    Vector3.new(312, 205, -76) -- CP1
 }
-local delayPerCP = 1 -- detik antar teleport
+local delayPerCP = 5 -- detik antar teleport
 local autoLoop = false
 local currentCP = 0 -- indikator CP aktif
 
